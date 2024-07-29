@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+       Array numbers = new Array(100);
+       numbers.insert(10);
+       numbers.insert(20);
+       numbers.insert(30);
+       numbers.insert(40);
+       numbers.removeAt(3);
+       System.out.println(numbers.indexOf(30));
+       numbers.print();
     }
 }
